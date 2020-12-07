@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://bwoodie5150.github.io/CIS453_courseProject/",
   "dependencies": {
+    "@material-ui/core": "^4.11.2",
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.2.2",

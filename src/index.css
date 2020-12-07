@@ -3,28 +3,41 @@ html {
   rgba(129, 144, 167, 0.6) 40%, rgba(129, 144, 167, 0.29) 65%, rgba(129, 144, 167, 0.1609) 80%, 
   rgba(129, 144, 167, 0));
   background-attachment: fixed;
+  background-image: url("https://spct2000.files.wordpress.com/2016/07/p6-v8-interior.jpg?w=840&h=441");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body {
+  display: block;
   padding: 20px;
   margin: 0;
 }
 
 
 
-h1, h2, p, ul, li {
+h1, h2, p {
   font: small-caps bold 24px/1 sans-serif ;
-  
+  text-align: center;
 }
 
+li {
+  font: small-caps bold 24px/1 sans-serif;
+  margin: 0;
+  padding: 0;
+
+  
+}
 ul.header li {
   display: inline;
   list-style-type: none;
-  margin: 0;
+  margin: 0 10px;
+  
+
 }
 
 ul.header {
-  background-color: #111;
+  background-color: transparent;
   padding: 0;
 }
 
@@ -37,7 +50,7 @@ ul.header li a {
 }
 
 .content {
-  background-color: #EEE5E5;
+  background-color: #fff;
   padding: 20px;
 }
 
@@ -48,10 +61,10 @@ ul.header li a {
 
 .content li {
   margin-bottom: 10px;
+
 }
 
 img {
-  border: 1px solid #111;
   padding: 5px;
   width: 250px;
   height: 200px;
@@ -73,4 +86,22 @@ figcaption {
   font-style: initial;
   padding: 2px;
   text-align: center;
+}
+
+.center {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+ 
+}
+
+figcaption {
+  background-color: lightslategrey;
+  font: caption;
+}
+
+.home h1{
+  font: outline;
 }

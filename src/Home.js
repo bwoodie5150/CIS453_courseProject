@@ -4,10 +4,13 @@ class Home extends Component
 {
     render() {
         return (
-            <div>
+            <div id="text">
                 <h2>Welcome to MGBD Parts & Service</h2> 
-                
+                <div id="home">
+                <h1>Your Source for Classic car parts since 2010</h1>
+                </div>
             </div>
+            
         )
     }
 }
