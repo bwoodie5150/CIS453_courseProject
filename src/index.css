@@ -3,15 +3,49 @@ html {
   rgba(129, 144, 167, 0.6) 40%, rgba(129, 144, 167, 0.29) 65%, rgba(129, 144, 167, 0.1609) 80%, 
   rgba(129, 144, 167, 0));
   background-attachment: fixed;
+<<<<<<< HEAD
+  background-image: url("https://spct2000.files.wordpress.com/2016/07/p6-v8-interior.jpg?w=840&h=441");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body {
+  display: block;
+=======
+}
+
+body {
+>>>>>>> 6927c7712d19a47822fa3765a832d6a6f7b84ee8
   padding: 20px;
   margin: 0;
 }
 
 
 
+<<<<<<< HEAD
+h1, h2, p {
+  font: small-caps bold 24px/1 sans-serif ;
+  text-align: center;
+}
+
+li {
+  font: small-caps bold 24px/1 sans-serif;
+  margin: 0;
+  padding: 0;
+
+  
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0 10px;
+  
+
+}
+
+ul.header {
+  background-color: transparent;
+=======
 h1, h2, p, ul, li {
   font: small-caps bold 24px/1 sans-serif ;
   
@@ -25,6 +59,7 @@ ul.header li {
 
 ul.header {
   background-color: #111;
+>>>>>>> 6927c7712d19a47822fa3765a832d6a6f7b84ee8
   padding: 0;
 }
 
@@ -37,7 +72,11 @@ ul.header li a {
 }
 
 .content {
+<<<<<<< HEAD
+  background-color: #fff;
+=======
   background-color: #EEE5E5;
+>>>>>>> 6927c7712d19a47822fa3765a832d6a6f7b84ee8
   padding: 20px;
 }
 
@@ -48,10 +87,17 @@ ul.header li a {
 
 .content li {
   margin-bottom: 10px;
+<<<<<<< HEAD
+
+}
+
+img {
+=======
 }
 
 img {
   border: 1px solid #111;
+>>>>>>> 6927c7712d19a47822fa3765a832d6a6f7b84ee8
   padding: 5px;
   width: 250px;
   height: 200px;
@@ -73,4 +119,23 @@ figcaption {
   font-style: initial;
   padding: 2px;
   text-align: center;
+}
+<<<<<<< HEAD
+
+.center {
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+ 
+}
+
+figcaption {
+  background-color: lightslategrey;
+  font: caption;
+}
+
+.home h1{
+  font: outline;
 }
