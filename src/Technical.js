@@ -5,7 +5,7 @@ class Technical extends Component
     render() {
         return (
             <div>
-                <h2>Welcome</h2> 
+                <h2>Our experts are available to answer your calls anytime</h2> 
             </div>
         )
     }
